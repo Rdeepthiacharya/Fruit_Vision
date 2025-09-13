@@ -1,0 +1,141 @@
+/* Footer styles */
+.footer-logo,
+.logo {
+  width: 50px;
+}
+
+.footer-branding {
+  display: flex;
+  gap: 1rem; /* spacing between logo and text */
+}
+
+.footer-logo {
+  height: 50px; /* or adjust as needed */
+  width: auto;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logoname{
+  font-family: cursive;
+}
+
+footer {
+  background:#0e1600;
+  color: #fff;
+  padding: 25px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  font-size: 25px;
+  justify-content: space-around;
+}
+
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+footer .col {
+  flex: 1 1 200px;
+  min-width: 180px;
+}
+
+footer h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+  letter-spacing: 0.2rem;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.icons {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.icon1 {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.icon1:hover {
+  outline-offset: 4px;
+}
+
+.icon1:hover i {
+  animation: shake 0.25s;
+}
+
+
+.icon:hover {
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #f97316 0%,
+    #f97316 100%
+  );
+  outline-color: #fff;
+}
+
+@keyframes shake {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+}
+
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-line {
+  border: none;
+  height: 1px;
+  background: #ccc;
+  width: 90%;
+  margin: 0 auto 10px auto;
+}
+
+.footer-bottom .copyright {
+  font-size: 14px;
+  color: #aaa;
+  margin: 0;
+}
+
+a {
+  color: inherit;          /* link uses parent text color */
+  text-decoration: none;   /* remove underline */
+}
+a:hover {
+  color: white;          /* emerald-600 hover */
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="/static/img/android-chrome-512x512.png" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+  <!-- Tailwind -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+
+  <title>Fruit Vision</title>
+</head>
+
+<body class="bg-gray-100">
+  <!-- Navbar -->
+  <header class="text-gray-600 body-font -my-8">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <div class="navbar-brand">
+          <img src="/static/img/android-chrome-512x512.png" alt="Fruit vision Logo" class="logo" />
+        </div>
+        <span class="logoname ml-3 text-emerald-600 text-xl">Fruit Vision</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a href="/" class="mr-5 text-orange-500 font-semibold">Home</a>
+        <a href="/about" class="mr-5 hover:text-green-600">About Us</a>
+        <a href="/prediction" class="mr-5 hover:text-green-600">Prediction</a>
+        <a href="/contact" class="mr-5 hover:text-green-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <hr class="bg-orange-500" />
+  <!-- Hero Section -->
+  <section class="text-gray-600 body-font -my-8">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <!-- Left-aligned text -->
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium">
+          Fruit Vision
+        </h1>
+        <p class="leading-relaxed text-base">
+          <strong>Fruit Vision</strong> is a smart fruit recognition platform
+          designed to check freshness and reduce food waste. Our system uses
+          advanced recognition methods to detect whether fruits are healthy or
+          damaged, enabling better choices for consumers and businesses.
+        </p>
+        <p class="mb-8 leading-relaxed text-base">
+          The platform provides quick and reliable results, helping to ensure
+          food safety, improve efficiency, and contribute toward a more
+          sustainable future.
+        </p>
+        <div class="flex">
+          <a href="/prediction">
+            <button
+              class="inline-flex text-white bg-emerald-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              Prediction
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Image on right -->
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero" src="/static/img/image.png" />
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="text-gray-600 body-font bg-white">
+    <div class="container px-5 py-20 mx-auto">
+      <h2 class="text-3xl font-medium title-font text-center text-gray-900 mb-12">
+        How It Works
+      </h2>
+      <div class="flex flex-wrap -m-4 text-center">
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-orange-500 px-4 py-6 rounded-lg shadow-sm">
+            <div class="text-orange-500 text-3xl mb-3">📤</div>
+            <h3 class="title-font font-medium text-lg text-gray-900 mb-2">
+              Upload Image
+            </h3>
+            <p class="leading-relaxed text-base">
+              Upload a picture of the fruit you want to check.
+            </p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-orange-500 px-4 py-6 rounded-lg shadow-sm">
+            <div class="text-orange-500 text-3xl mb-3">🤖</div>
+            <h3 class="title-font font-medium text-lg text-gray-900 mb-2">
+              AI Scans
+            </h3>
+            <p class="leading-relaxed text-base">
+              Our system analyzes the fruit using recognition models.
+            </p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-orange-500 px-4 py-6 rounded-lg shadow-sm">
+            <div class="text-orange-500 text-3xl mb-3">✅</div>
+            <h3 class="title-font font-medium text-lg text-gray-900 mb-2">
+              Get Results
+            </h3>
+            <p class="leading-relaxed text-base">
+              Quickly see if your fruit is fresh or damaged.
+            </p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-orange-500 px-4 py-6 rounded-lg shadow-sm">
+            <div class="text-orange-500 text-3xl mb-3">🍽️</div>
+            <h3 class="title-font font-medium text-lg text-gray-900 mb-2">
+              Make Decisions
+            </h3>
+            <p class="leading-relaxed text-base">
+              Choose whether to keep, eat, or replace the fruit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Supported Fruits Section -->
+  <section class="text-gray-600 body-font bg-gray-100">
+    <div class="container px-5 py-20 mx-auto">
+      <h2 class="text-3xl font-medium title-font text-center text-gray-900 mb-12">
+        Supported Fruits
+      </h2>
+      <div class="flex flex-wrap justify-center -m-4">
+        <!-- Fruit Card -->
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="h-full bg-white shadow-md rounded-lg overflow-hidden text-center">
+            <img alt="apple" class="w-full h-40 object-cover object-center" src="/static/img/apple.webp" />
+            <div class="p-4">
+              <h3 class="title-font text-lg font-medium ">
+                Apple
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="h-full bg-white shadow-md rounded-lg overflow-hidden text-center">
+            <img alt="banana" class="w-full h-40 object-cover object-center" src="/static/img/banana.webp" />
+            <div class="p-4">
+              <h3 class="title-font text-lg font-medium">
+                Banana
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class="h-full bg-white shadow-md rounded-lg overflow-hidden text-center">
+            <img alt="orange" class="w-full h-40 object-cover object-center" src="/static/img/orange.jpg" />
+            <div class="p-4">
+              <h3 class="title-font text-lg font-medium">
+                Orange
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="row">
+      <div class="col">
+        <div class="footer-branding">
+          <img src="/static/img/android-chrome-512x512.png" alt="GameZone Logo" class="footer-logo" />
+          <div class="footer-text">
+            <h3 class="logoname">Fruit Vision</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h5 class="footer-link">
+          <a href="#">Follow Us</a>
+          <span class="underline"><span class="bar"></span></span>
+        </h5>
+        <p>Stay updated by following us on social media.</p>
+        <div class="icons">
+          <a href="#" class="icon1 icon "><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="icon1 icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="icon1 icon"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <hr class="footer-line" />
+      <p class="copyright">
+        &copy; <span id="year"></span> Fruit Vision. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
