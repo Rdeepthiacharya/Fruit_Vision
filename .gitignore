@@ -14,6 +14,13 @@ __pycache__/
 # Jupyter Notebooks
 .ipynb_checkpoints
 
+# Ignore data files
+test/
+train/
+*.jpg
+*.png
+models/
+
 # Ignore OS files
 .DS_Store
 Thumbs.db
