@@ -11,5 +11,9 @@ __pycache__/
 .vscode/
 *.log
 
-# ---- Jupyter Notebooks ----
+# Jupyter Notebooks
 .ipynb_checkpoints
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
