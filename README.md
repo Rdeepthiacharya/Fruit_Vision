@@ -33,7 +33,7 @@ Before running the application, make sure you have:
 
 - Installed all required dependencies (`requirements.txt` is provided).  
 - Downloaded a fruit dataset and divided it into train/ and test/ folders (these are excluded from the repository). 
-- Train the machine learning model using the provided Fruits Vision.ipynb notebook.  
+- Train the machine learning model using the provided `Fruits Vision.ipynb` notebook.  
 - Save the trained model file inside the project directory (the model file is excluded from this repo due to size).
 - A system with **RAM: 8GB or higher** (recommended for model training).
 
